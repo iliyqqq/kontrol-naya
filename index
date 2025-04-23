@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль пользователя</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1 id="username">Алексей Петров</h1>
+        <p class="description">Веб-разработчик с опытом работы 5 лет. Люблю создавать красивые и функциональные интерфейсы.</p>
+        
+        <button id="toggle-interests" class="btn">Показать интересы</button>
+        
+        <div class="interests-container">
+            <div class="interest-card">
+                <h3>Фронтенд-разработка</h3>
+                <p>React, Vue, JavaScript, TypeScript</p>
+            </div>
+            <div class="interest-card">
+                <h3>Дизайн</h3>
+                <p>UI/UX, Figma, Adobe XD</p>
+            </div>
+            <div class="interest-card">
+                <h3>Путешествия</h3>
+                <p>Горы, море, новые города</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
